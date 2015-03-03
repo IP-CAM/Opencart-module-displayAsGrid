@@ -1,0 +1,12 @@
+<modification>
+	<id>Default display as Grid</id>
+	<version>1.5.x</version>
+	<vqmver>2.1.5</vqmver>
+	<author>Bogdan-Ioan BRUDIU</author>
+	<file name="catalog/view/theme/*/template/product/category.tpl">
+		<operation>
+			<search position="replace"><![CDATA[display('list');]]></search>
+			<add><![CDATA[display('grid');]]></add>
+		</operation>
+	</file>
+</modification>
